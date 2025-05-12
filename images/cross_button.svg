@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 49" width="49" height="49">
+	<title>Ellipse 4</title>
+	<defs>
+		<image  width="20" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAAXNSR0IB2cksfwAAAIdQTFRF/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAAAx5AOAAAAC10Uk5TWOzaPQA5zNH8/0dD4eZGQtg//UH7O0j39f438votK/T2PPM46icmLvk+OuLtVOq7igAAAMxJREFUeJxNkdkWgjAMRKMMakFFkdUFBNxQ///7zFBA8tBk7mnaZioymzuYhLtYOrIyxnh/5qtey0ah2Q4soNrJnik8WOZEFLEgIU27c92MtQ8BklyrLAaOJy0iH4QIztx7KUpNV7YQomJbWetSNxggqqvpwrIeoriR3e6YwoeFxRQ2tW3Pqj9s+Ja6HKkM15TFM9X0OlgYcLbTEYj5stwjDLqBXLa13KueyTvkbG1vEkW+l531oA+PaiMf9Wpk6DwLxVku3Ol3tPOv/AAjDBDSocXhhQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<path id="Ellipse 4" class="s0" d="m24.5 1c13 0 23.5 10.5 23.5 23.5 0 13-10.5 23.5-23.5 23.5-13 0-23.5-10.5-23.5-23.5 0-13 10.5-23.5 23.5-23.5z"/>
+	<use id="Rounded Rectangle 6 copy" href="#img1" x="15" y="17"/>
+</svg>

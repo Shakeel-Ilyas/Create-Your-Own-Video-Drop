@@ -1,0 +1,138 @@
+@media  screen and (max-width:768px) {
+   
+    /* code of first section  */
+
+    .firstSection{
+        height: 65px;
+        padding: 0px 24px 0px 24px;
+    }
+    .firstSection h1{
+        font-size: 29px;
+    }
+    .firstSection img{
+        width: 33px;
+    }
+
+    /* code of second section  */
+
+    .secondSection{
+        display: block;
+        margin: auto;
+        padding: 50px 30px 30px 30px;
+    }
+    .secondSection .first{
+        margin: auto;
+        width: 100%;
+    }
+    .secondSection .second{
+        width: 100%;
+        margin-top: 90px;
+    }
+    .secondSection .third{
+       width: 100%;
+       margin: auto;
+       margin-top: 90px;
+    }
+    #video_section, #form_section {
+        display: none;
+    }
+    
+    .secondSection .first .videosList{
+        padding-bottom: 50px;
+    }
+    .secondSection .first .videosList .videosListButton button{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background-color: var(--transparent);
+    border: 3px solid var(--red1);
+    border-radius: 7px;
+    padding: 10px 40px 3px 40px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center; 
+    }
+
+/* code of form layout */
+
+    .secondSection .second .form{
+        padding: 65px 49px;
+    }
+    .secondSection .second .form .formFirst p{
+        font-size: 24px;
+    }
+    .secondSection .second .form .formFirst img{
+        width: 24px;
+    }
+    .secondSection .second .form input{
+        font-size: 24px;
+        padding: 12px 12px 6px 12px;
+        border-radius: 7px;
+    }
+    .secondSection .second .form .formSecond input{
+        margin-top: 70px;
+    }
+    .secondSection .second .form .formThird{
+        display: block;
+    }
+    .secondSection .second .form .formThird input{
+        width: 100%;
+        margin-top: 32px;
+    }
+    .secondSection .second .form .formFourth p{
+        font-size: 24px;
+        margin-top: 32px;
+    }
+    .secondSection .second .form .formFifth{
+        display: block;
+    }
+    .secondSection .second .form .formFifth input{
+        margin-top: 32px;
+        width: 100%;
+    }
+    .secondSection .second .form .formFifth .inputBelowValidUntil{
+        margin-top:10px ;
+    }
+    .secondSection .second .form .formSixth{
+        margin-top: 32px;
+    }
+    .secondSection .second .form .formSeventh{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .secondSection .second .form .formSeventh button{
+        width: 180px;
+        display: block;
+        margin: auto;
+        padding: 12px 0px 10px 0px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    /* code of video layout */
+
+    .secondSection .third .video{
+        background-color: var(--transparent);
+        border: none;
+        padding: 10px 50px;
+        padding-bottom: 30px;
+        
+    }
+        .secondSection .third .video .videosButton button{
+            display: block;
+            margin: auto;
+            margin-top: 50px;
+            background-color: var(--transparent);
+            border: 3px solid var(--red1);
+            border-radius: 7px;
+            padding: 10px 40px 3px 40px;
+            font-size: 24px;
+            font-weight: 500;
+            text-align: center; 
+            }
+
+    }
+    
+
+    
+    
