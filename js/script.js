@@ -1,6 +1,5 @@
-
 function openVideo(evt, video_img) {
-  var i, tabcontent, tablinks;
+  var i, tabcontent;
   tabcontent = document.getElementsByClassName("video_content");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
@@ -10,6 +9,6 @@ function openVideo(evt, video_img) {
 }
 
 function openForm() {
-    const videoOpen = document.getElementById("form_section");
-    videoOpen.style.display = "block";
+  const videoOpen = document.getElementById("form_section");
+  videoOpen.style.display = "block";
 }

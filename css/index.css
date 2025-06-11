@@ -1,222 +1,215 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-:root{
-    --red1:#ff0000;
-    --white:#ffffff;
-    --black:#000000;
-    --gray98:#fafafa;
-    --gray90:#e5e5e5;
-    --gray71:#b5b5b5;
-    --transparent:transparent;
-
-}
-@font-face {
-    font-family: sherikaLight;
-    src: url('fonts/sherika_light.ttf');
+:root {
+  --red1: #ff0000;
+  --white: #ffffff;
+  --black: #000000;
+  --gray98: #fafafa;
+  --gray90: #e5e5e5;
+  --gray71: #b5b5b5;
+  --transparent: transparent;
 }
 @font-face {
-    font-family: sherikaRegular;
-    src: url('fonts/sherika_regular.ttf');
+  font-family: sherikaLight;
+  src: url("fonts/sherika_light.ttf");
+}
+@font-face {
+  font-family: sherikaRegular;
+  src: url("fonts/sherika_regular.ttf");
 }
 
-    /* first section code starts from here  */
+/* first section code starts from here  */
 
-.firstSection{
-    max-width: 1440px;
-    height: 90px;
-    background-color: var(--red1) ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 30px 0px 30px;
-    margin: auto;
+.firstSection {
+  max-width: 1440px;
+  height: 90px;
+  background-color: var(--red1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px 0px 30px;
+  margin: auto;
+}
+.firstSection h1 {
+  color: var(--white);
+  font-family: sherikaLight;
+  font-size: 33px;
+}
+.firstSection img {
+  width: 42px;
+}
 
-}
-.firstSection h1{
-    color:var(--white) ;
-    font-family: sherikaLight;
-    font-size: 33px;
-}
-.firstSection img{
-    width: 42px;
-}
+/* second section code starts from here  */
 
-    /* second section code starts from here  */
-
-.secondSection{
-    width: 100%;
-    max-width: 1440px;
-    padding: 65px 30px 30px 30px;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
+.secondSection {
+  width: 100%;
+  max-width: 1440px;
+  padding: 65px 30px 30px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
-.secondSection .first{
-    width: 25%;
+.secondSection .first {
+  width: 25%;
 }
-.secondSection .second{
-    width: 46%;
+.secondSection .second {
+  width: 46%;
 }
-.secondSection .third{
-    width: 25%;
+.secondSection .third {
+  width: 25%;
 }
-.secondSection .border{
-    margin: auto;
-    width: 140px;
-    height: 140px;
-    border: 3px solid var(--red1);
-    border-radius: 50%;
+.secondSection .border {
+  margin: auto;
+  width: 140px;
+  height: 140px;
+  border: 3px solid var(--red1);
+  border-radius: 50%;
 }
-.secondSection .border img{
-    width: 46px;
-    position: relative;
-    top: 27px;
-    left: 43px;
+.secondSection .border img {
+  width: 46px;
+  position: relative;
+  top: 27px;
+  left: 43px;
 }
-.secondSection .border h2{
-    position: relative;
-    top: 33px;
-    text-align: center;
-    font-family: sherikaRegular;
-    font-size: 24px;
-    color: var(--black);
+.secondSection .border h2 {
+  position: relative;
+  top: 33px;
+  text-align: center;
+  font-family: sherikaRegular;
+  font-size: 24px;
+  color: var(--black);
 }
-.secondSection .belowBorder p{
-    text-align: center;
-    font-size: 21px;
-    font-family: sherikaLight;
-    font-weight: 600;
-    margin-top: 18px;
+.secondSection .belowBorder p {
+  text-align: center;
+  font-size: 21px;
+  font-family: sherikaLight;
+  font-weight: 600;
+  margin-top: 18px;
 }
-.secondSection .belowBorder h2{
-    min-height: 61px;
-    text-align: center;
-    color: var(--red1);
-    font-family: sherikaRegular;
-    font-size: 24px;
-    margin-top: 10px;
+.secondSection .belowBorder h2 {
+  min-height: 61px;
+  text-align: center;
+  color: var(--red1);
+  font-family: sherikaRegular;
+  font-size: 24px;
+  margin-top: 10px;
 }
 
 /* second section videos list code start from here */
 
-.secondSection .first .videosList{
-    width: 100%;
-    background-color: var(--gray98);
-    border: 1px solid var(--gray90);
-    padding: 15px;
-    margin-right: 20px;
- 
+.secondSection .first .videosList {
+  width: 100%;
+  background-color: var(--gray98);
+  border: 1px solid var(--gray90);
+  padding: 15px;
+  margin-right: 20px;
 }
-.secondSection .first .videosList .videosListManage{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
+.secondSection .first .videosList .videosListManage {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
 }
-.secondSection .first .videosList img{
-    width: 100%;
-    cursor: pointer;
+.secondSection .first .videosList img {
+  width: 100%;
+  cursor: pointer;
 }
 
-.secondSection .first .videosList .videosListButton button{
-    display: none;
-    font-family: sherikaRegular;    
+.secondSection .first .videosList .videosListButton button {
+  display: none;
+  font-family: sherikaRegular;
 }
 
 /* second section form code start from here */
 
-.secondSection .second .form{
-    width: 100%;
-    background-color: var(--gray98);
-    border: 1px solid var(--gray90);
-    padding: 27px;
+.secondSection .second .form {
+  width: 100%;
+  background-color: var(--gray98);
+  border: 1px solid var(--gray90);
+  padding: 27px;
 }
-.secondSection .second .form .formFirst{
-    display: flex;
-    justify-content: space-between;
+.secondSection .second .form .formFirst {
+  display: flex;
+  justify-content: space-between;
 }
-.secondSection .second .form .formFirst p{
-    font-family:sherikaLight;
-    color: var(--gray71);
-    font-size: 20px;
+.secondSection .second .form .formFirst p {
+  font-family: sherikaLight;
+  color: var(--gray71);
+  font-size: 20px;
 }
-.secondSection .second .form .fullWidth{
-    width: 100%;
+.secondSection .second .form .fullWidth {
+  width: 100%;
 }
-.secondSection .second .form input{
-    width: 100%;
-    font-size: 17px;
-    padding: 13px;
-    border-radius: 7px;
-    border: 1px solid var(--gray90);
-    display: block;
-    font-family:sherikaLight;
+.secondSection .second .form input {
+  width: 100%;
+  font-size: 17px;
+  padding: 13px;
+  border-radius: 7px;
+  border: 1px solid var(--gray90);
+  display: block;
+  font-family: sherikaLight;
 }
-.secondSection .second .form .formSecond input{
-    margin-top: 35px;
-
+.secondSection .second .form .formSecond input {
+  margin-top: 35px;
 }
-.secondSection .second .form .formThird{
-    display: flex;
-    justify-content: space-between;
+.secondSection .second .form .formThird {
+  display: flex;
+  justify-content: space-between;
 }
-.secondSection .second .form .formThird input{
-    width: 49%;
-    margin-top: 25px;
+.secondSection .second .form .formThird input {
+  width: 49%;
+  margin-top: 25px;
 }
-.secondSection .second .form .formFourth p{
-    font-family:sherikaLight;
-    color: var(--gray71);
-    font-size: 20px;
-    margin-top: 25px;
+.secondSection .second .form .formFourth p {
+  font-family: sherikaLight;
+  color: var(--gray71);
+  font-size: 20px;
+  margin-top: 25px;
 }
-.secondSection .second .form .formFifth{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.secondSection .second .form .formFifth {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.secondSection .second .form .formFifth input{
-    width: 49%;
-    margin-top: 5px;
+.secondSection .second .form .formFifth input {
+  width: 49%;
+  margin-top: 5px;
 }
-.secondSection .second .form .formSixth{
-    margin-top: 25px;
+.secondSection .second .form .formSixth {
+  margin-top: 25px;
 }
-.secondSection .second .form .formSeventh{
-    margin-top: 35px;
-    width: 100%;
+.secondSection .second .form .formSeventh {
+  margin-top: 35px;
+  width: 100%;
 }
-.secondSection .second .form .formSeventh button{
-    font-size: 22px;
-    padding: 10px 7% 10px 7%;
-    color: var(--white);
-    background-color: var(--red1);
-    border: none;
-    border-radius: 7px;
-    font-family:sherikaRegular;
+.secondSection .second .form .formSeventh button {
+  font-size: 22px;
+  padding: 10px 7% 10px 7%;
+  color: var(--white);
+  background-color: var(--red1);
+  border: none;
+  border-radius: 7px;
+  font-family: sherikaRegular;
 }
 
 /* second section videos list code start from here */
 
-.secondSection .third .video{
-    width: 100%;
-    background-color: var(--gray98);
-    border: 1px solid var(--gray90);
-    padding: 13px;
+.secondSection .third .video {
+  width: 100%;
+  background-color: var(--gray98);
+  border: 1px solid var(--gray90);
+  padding: 13px;
 }
-.secondSection .third .video img{
-    width: 100%;
-    
+.secondSection .third .video img {
+  width: 100%;
 }
-.secondSection .third .video .videosButton button{
-    display: none;
-    font-family: sherikaRegular;    
+.secondSection .third .video .videosButton button {
+  display: none;
+  font-family: sherikaRegular;
 }
 .video_content {
-    display: none;
+  display: none;
 }
-
-

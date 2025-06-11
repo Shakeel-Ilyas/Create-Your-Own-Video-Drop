@@ -1,144 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create Your Own Video Drop</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/mq_index.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/mq_index.css" />
+  </head>
+  <body>
     <!-- first section code starts here  -->
 
     <section class="firstSection">
-        <h1>Create your own video drop</h1>
-        <img src="images/cross_button.svg" alt="image">
+      <h1>Create your own video drop</h1>
+      <img src="images/cross_button.svg" alt="image" />
     </section>
 
     <!-- second section code starts here  -->
 
     <section class="secondSection">
-        <div class="first">
-            <div class="border">
-                <img src="images/video_gallery_button.svg" alt="image">
-                <h2>Library</h2>
-            </div>
-            <div class="belowBorder">
-                <p>Step-1</p>
-                <h2>Select a video from Library</h2>
-            </div>
-            <div class="videosList">
-            <div class="videosListManage">
-                <div>
-                    <img src="images/1.png" alt="image" onclick="openVideo(event, 'video1')">
-                </div>
-                <div>
-                    <img src="images/2.png" alt="image" onclick="openVideo(event, 'video2')">
-                </div>
-                <div>
-                    <img src="images/1.png" alt="image" onclick="openVideo(event, 'video3')">
-                </div>
-                <div>
-                    <img src="images/3.png" alt="image" onclick="openVideo(event, 'video4')">
-                </div>
-                <div>
-                    <img src="images/4.png" alt="image" onclick="openVideo(event, 'video5')">
-                </div>
-                <div>
-                    <img src="images/3.png" alt="image" onclick="openVideo(event, 'video6')">
-                </div>
-                <div>
-                    <img src="images/5.png" alt="image" onclick="openVideo(event, 'video7')">
-                </div>
-                <div>
-                    <img src="images/6.png" alt="image" onclick="openVideo(event, 'video8')">
-                </div>
-            </div>
-                <div class="videosListButton">
-                    <button onclick="openForm()">Next</button>
-                </div>
+      <div class="first">
+        <div class="border">
+          <img src="images/video_gallery_button.svg" alt="image" />
+          <h2>Library</h2>
         </div>
+        <div class="belowBorder">
+          <p>Step-1</p>
+          <h2>Select a video from Library</h2>
         </div>
-        <div class="second" id="form_section">
-            <div class="border">
-                <img src="images/rounded_rectangle_button.svg" alt="image">
-                <h2>Form</h2>
+        <div class="videosList">
+          <div class="videosListManage">
+            <div>
+              <img
+                src="images/1.png"
+                alt="image"
+                onclick="openVideo(event, 'video1')"
+              />
             </div>
-            <div class="belowBorder">
-                <p>Step-2</p>
-                <h2>Fill Your Coupon Detail</h2>
+            <div>
+              <img
+                src="images/2.png"
+                alt="image"
+                onclick="openVideo(event, 'video2')"
+              />
             </div>
-                <form class="form">
-                    <div class="formFirst fullWidth">
-                        <p>Number 1</p>
-                        <img src="images/recycle_bin_button.svg" alt="image">
-                    </div>
-                    <div class="formSecond fullWidth">
-                        <input type="text" placeholder="Title of the  deal">
-                    </div>
-                    <div class="formThird fullWidth">
-                        <input type="text" placeholder="Coupon Code">
-                        <input type="number" placeholder="Number of drops">
-                    </div>
-                    <div class="formFourth fullWidth">
-                        <p>Valid until</p>
-                    </div>
-                    <div class="formFifth fullWidth">
-                        <input type="date" class="inputBelowValidUntil">
-                        <input type="number" placeholder="Minimum Participants">
-                    </div>
-                    <div class="formSixth fullWidth">
-                        <input type="text" placeholder="Add link ( Optional) le. http://yourdomain.com/jproduct">
-                    </div>
-                    
-                    <div class="formSeventh fullWidth">
-                        <button>Learn More</button>
-                    </div>
-                </form>
+            <div>
+              <img
+                src="images/1.png"
+                alt="image"
+                onclick="openVideo(event, 'video3')"
+              />
+            </div>
+            <div>
+              <img
+                src="images/3.png"
+                alt="image"
+                onclick="openVideo(event, 'video4')"
+              />
+            </div>
+            <div>
+              <img
+                src="images/4.png"
+                alt="image"
+                onclick="openVideo(event, 'video5')"
+              />
+            </div>
+            <div>
+              <img
+                src="images/3.png"
+                alt="image"
+                onclick="openVideo(event, 'video6')"
+              />
+            </div>
+            <div>
+              <img
+                src="images/5.png"
+                alt="image"
+                onclick="openVideo(event, 'video7')"
+              />
+            </div>
+            <div>
+              <img
+                src="images/6.png"
+                alt="image"
+                onclick="openVideo(event, 'video8')"
+              />
+            </div>
+          </div>
+          <div class="videosListButton">
+            <button onclick="openForm()">Next</button>
+          </div>
         </div>
-        <div class="third" id="video_section">
-            <div class="border">
-                <img src="images/youtube_button.svg" alt="image">
-                <h2>Video</h2>
-            </div>
-            <div class="belowBorder">
-                <p>Step-3</p>
-                <h2>Proview your video drop</h2>
-            </div>
-            <div class="video">
-                <div id="video1" class="video_content" style="display: block;">
-                    <img src="images/video.png" alt="image">
-                </div>
-                <div id="video2" class="video_content">
-                    <iframe width="294" height="448" src="https://www.youtube.com/embed/kAOuj6o7Kxs?si=NVMKNttaIO5Uy3Cz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div id="video3" class="video_content">
-                    <iframe width="294" height="448" src="https://www.youtube.com/embed/lI7IIOWM0Mo?si=s1f80rYjGvbGAH3V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div id="video4" class="video_content">
-                    <img src="images/video.png" alt="image">
-                </div>
-                <div id="video5" class="video_content">
-                    <iframe width="294" height="448" src="https://www.youtube.com/embed/lI7IIOWM0Mo?si=s1f80rYjGvbGAH3V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div id="video6" class="video_content">
-                    <img src="images/video.png" alt="image">
-                </div>
-                <div id="video7" class="video_content">
-                    <iframe width="294" height="448" src="https://www.youtube.com/embed/kAOuj6o7Kxs?si=NVMKNttaIO5Uy3Cz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div id="video8" class="video_content">
-                    <iframe width="294" height="448" src="https://www.youtube.com/embed/lI7IIOWM0Mo?si=s1f80rYjGvbGAH3V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="videosButton">
-                    <button>Next</button>
-                </div>
-            </div>            
+      </div>
+      <div class="second" id="form_section">
+        <div class="border">
+          <img src="images/rounded_rectangle_button.svg" alt="image" />
+          <h2>Form</h2>
         </div>
+        <div class="belowBorder">
+          <p>Step-2</p>
+          <h2>Fill Your Coupon Detail</h2>
+        </div>
+        <form class="form">
+          <div class="formFirst fullWidth">
+            <p>Number 1</p>
+            <img src="images/recycle_bin_button.svg" alt="image" />
+          </div>
+          <div class="formSecond fullWidth">
+            <input type="text" placeholder="Title of the  deal" />
+          </div>
+          <div class="formThird fullWidth">
+            <input type="text" placeholder="Coupon Code" />
+            <input type="number" placeholder="Number of drops" />
+          </div>
+          <div class="formFourth fullWidth">
+            <p>Valid until</p>
+          </div>
+          <div class="formFifth fullWidth">
+            <input type="date" class="inputBelowValidUntil" />
+            <input type="number" placeholder="Minimum Participants" />
+          </div>
+          <div class="formSixth fullWidth">
+            <input
+              type="text"
+              placeholder="Add link ( Optional) le. http://yourdomain.com/jproduct"
+            />
+          </div>
+
+          <div class="formSeventh fullWidth">
+            <button>Learn More</button>
+          </div>
+        </form>
+      </div>
+      <div class="third" id="video_section">
+        <div class="border">
+          <img src="images/youtube_button.svg" alt="image" />
+          <h2>Video</h2>
+        </div>
+        <div class="belowBorder">
+          <p>Step-3</p>
+          <h2>Proview your video drop</h2>
+        </div>
+        <div class="video">
+          <div id="video1" class="video_content" style="display: block">
+            <img src="images/video.png" alt="image" />
+          </div>
+          <div id="video2" class="video_content">
+            <iframe
+              width="294"
+              height="448"
+              src="https://www.youtube.com/embed/kAOuj6o7Kxs?si=NVMKNttaIO5Uy3Cz"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div id="video3" class="video_content">
+            <iframe
+              width="294"
+              height="448"
+              src="https://www.youtube.com/embed/lI7IIOWM0Mo?si=s1f80rYjGvbGAH3V"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div id="video4" class="video_content">
+            <img src="images/video.png" alt="image" />
+          </div>
+          <div id="video5" class="video_content">
+            <iframe
+              width="294"
+              height="448"
+              src="https://www.youtube.com/embed/lI7IIOWM0Mo?si=s1f80rYjGvbGAH3V"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div id="video6" class="video_content">
+            <img src="images/video.png" alt="image" />
+          </div>
+          <div id="video7" class="video_content">
+            <iframe
+              width="294"
+              height="448"
+              src="https://www.youtube.com/embed/kAOuj6o7Kxs?si=NVMKNttaIO5Uy3Cz"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div id="video8" class="video_content">
+            <iframe
+              width="294"
+              height="448"
+              src="https://www.youtube.com/embed/lI7IIOWM0Mo?si=s1f80rYjGvbGAH3V"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="videosButton">
+            <button>Next</button>
+          </div>
+        </div>
+      </div>
     </section>
 
-
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
